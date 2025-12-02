@@ -3,8 +3,6 @@ import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import HeaderButtons from './components/HeaderButtons';
 import './App.css';
 import TimerPanel from './components/TimerPanel';
-import SettingsButton from './components/SettingsButton';
-import MyVerticallyCenteredModal from "./components/SettingsModal"
 import PlantPanel from './components/PlantPanel';
 
 function Main() {

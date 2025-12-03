@@ -1,15 +1,15 @@
-import "./Buttons.css"
-import "./main.css"
+import './Buttons.css';
+import './main.css';
 
 type HeaderButtonsProps = {
-    title: string
-    onClick: () => void
-}
+  title: string;
+  onClick: () => void;
+};
 
 export default function HeaderButtons({ onClick, title }: HeaderButtonsProps) {
-    return (
-        <button className="header-btn" onClick={onClick}>
-            {title}
-        </button>
-    )
+  return (
+    <button type="button" className="header-btn" onClick={onClick}>
+      {title}
+    </button>
+  );
 }

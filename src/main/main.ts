@@ -50,7 +50,7 @@ const installExtensions = async () => {
 
   return installer
     .default(
-      extensions.map((name) => "PlantModoro"),
+      extensions.map(() => 'PlantModoro'),
       forceDownload,
     )
     .catch(console.log);

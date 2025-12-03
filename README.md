@@ -18,6 +18,17 @@ PlantModoro-1.0.0.dmg
 
 ➡️ Download, open the .dmg, drag PlantModoro to Applications.
 
+## ⚠️ macOS Installation
+
+Since this app is not notarized with Apple, you may see "PlantModoro is damaged" error.
+
+**To fix:**
+1. Open Terminal
+2. Run: `xattr -cr /Applications/PlantModoro.app`
+3. Open the app normally
+
+Or: Right-click the app → Open → Click "Open" in the dialog
+
 ✨ Features
 
 ⏱️ Classic Pomodoro cycle
